@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light mb-5">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="IMG_3459.JPG" ><img src="IMG_3459.JPG" alt="" class="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">statistics</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Trending
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Rock</a></li>
+                  <li><a class="dropdown-item" href="#">Pop</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Blues</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    
+      <div class="main_wrapper shadow">
+        <form method="post" action="login.html">
+            <div class="mb-3 or ">
+                <h3>Log in</h3>
+            </div>
+            <div class="or mb-2">
+              <img src="google.png" alt="" class="clogo" >
+              <img src="twiter.jpeg" alt="" class="clogo">
+              <img src="faceb.png" alt="" class="clogo">
+             
+            </div>
+            <div class=" or ">or login using email</div>
+            <div class="mb-3">
+              <label for="Email1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+              
+            </div>
+
+            <div class="mb-3">
+              <label for="Password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="Password">
+            </div>
+
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Remember Me</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="" class="udo">Forget Password?</a>
+            </div>
+            <button type="submit" id="grad" class="btn btn-success opacity-75 mt-5 mb-5 form-control" onclick="validate()">Submit</button>
+            <div>
+            <a href="" class="udo">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="" class="udo">Terms & Condition</a>
+            </div>
+          </form>
+      </div>
+
+
+    <script src="js/bootstrap.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
